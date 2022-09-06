@@ -32,8 +32,8 @@ We have started the project, but we'd like you to finish it off to a production-
 ## Live APIs
 - Use live api for data
 
-
-# Not work on 
+--
+## Not work on 
 - We can use react-simple-image-slider for images
 - read more 
 
