@@ -1,0 +1,132 @@
+.pageWrap {
+
+	display: flex;
+
+	@media screen and (min-width: 768px) {
+
+		border-top: 1px solid #F5F4F1;
+
+	}
+
+}
+
+.itemTitlewrap {
+	background-color: #FFF;
+}
+
+.itemWrap {
+	background: #F2F2F2;
+}
+
+.arrowBack {
+	width: 10%;
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.itemTitle {
+
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 0 0 0;
+
+	h1 {
+		text-transform: capitalize;
+		color: #908d8d;
+		font-weight: 300;
+		margin: 0;
+	}
+}
+
+.itemPrice {
+	width: 70%;
+	margin: 0 0 30px 0;
+}
+
+.price {
+
+	font-size: 32px;
+
+	line-height: 1.5em;
+
+}
+
+.itemInfo {
+	background-color: #FFF;
+	margin-top: 10px;
+	border-top: 1px solid #F5F4F1;
+	padding: 2rem 3rem;
+
+	h3 {
+		text-transform: inherit;
+		font-size: 24px;
+		font-weight: 300;
+		margin: 10px 0 10px 0;
+		color: #727272;
+	}
+}
+
+.specialOffer {
+	color: #9B0505;
+	margin-bottom: 5px;
+}
+
+
+.includedOptions {
+	text-transform: none;
+	color: #284E36;
+}
+
+.itemSKU {
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #F5F4F1;
+}
+
+.specList {
+	margin: 25px 0 0 0;
+	padding: 0 5px 0 5px;
+	list-style: none;
+	border-top: 1px solid #F5F4F1;
+}
+
+.listItem {
+	border-bottom: 1px solid #F5F4F1;
+	padding: 1rem 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemRight {
+	display: none;
+}
+
+.itemLeft {
+	width: 100%;
+	border-right: none;
+}
+
+@media screen and (min-width: 768px) {
+	.itemRight {
+		width: 35%;
+		padding: 1rem 3rem;
+		display: block;
+	}
+
+	.itemLeft {
+		width: 65%;
+		border-right: 1px solid #F5F4F1
+	}
+
+	.itemPrice {
+		display: none;
+	}
+
+	.itemTitlewrap {
+		background-color: #FBFBFB;
+		padding: 15px;
+	}
+
+}

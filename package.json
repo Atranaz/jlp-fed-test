@@ -1,0 +1,27 @@
+{
+  "name": "front-end-dev-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^26.6.3",
+    "lodash": "^4.17.21",
+    "next": "10.0.8",
+    "node-fetch": "^3.0.0",
+    "node-sass": "5.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-fetch-mock": "^3.0.3"
+  }
+}
